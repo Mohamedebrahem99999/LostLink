@@ -1,0 +1,27 @@
+[
+    {
+        "item_id": "L001",
+        "report_type": "lost",
+        "category": "wallet",
+        "color": "black",
+        "location": "Mansoura University",
+        "date": "2026-10-10",
+        "name": "Leather Wallet",
+        "description": "Black leather wallet containing a university ID",
+        "keywords": ["leather", "wallet", "university ID"],
+        "status": "open"
+    },
+    {
+        "item_id": "F001",
+        "report_type": "found",
+        "category": "wallet",
+        "color": "black",
+        "location": "Faculty of Engineering",
+        "date": "2026-10-11",
+        "name": "Black Wallet",
+        "description": "Found a black leather wallet near the main entrance",
+        "keywords": ["wallet", "leather", "main entrance"],
+        "status": "open"
+    }
+]
+// أنا افترضت إن ده هيبقى شكله في الكود بتاعي

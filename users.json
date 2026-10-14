@@ -1,0 +1,77 @@
+{
+    "1": {
+        "name": "Mohamed Ebrahim",
+        "email": "jshdheh33i38@gmail.com",
+        "password": "123456",
+        "phone": "01286062968",
+        "age": 21,
+        "gender": "",
+        "role": "Manager"
+    },
+    "2": {
+        "name": "Ali",
+        "email": "mohamed33i3@gmail.com",
+        "password": "888888",
+        "phone": "01878787879",
+        "age": 23,
+        "gender": "",
+        "borrowed_items": [
+            "2",
+            "1"
+        ],
+        "role": "Member"
+    },
+    "3": {
+        "name": "ahmed",
+        "email": "ali@gmail.com",
+        "password": "1234567",
+        "phone": "01286062968",
+        "age": 32,
+        "gender": "",
+        "borrowed_items": [],
+        "role": "Member"
+    },
+    "4": {
+        "name": "ali",
+        "email": "ldskjflkjl@gmail.com",
+        "password": "35645643",
+        "phone": "01234322239",
+        "age": 35,
+        "gender": "",
+        "borrowed_items": [],
+        "role": "Manager"
+    },
+    "5": {
+        "name": "mo'men",
+        "email": "moamen.hamed6013@gmail.com",
+        "password": "66556543434443",
+        "phone": "01320423535",
+        "age": 12,
+        "gender": "Male",
+        "borrowed_items": [
+            "7",
+            "5"
+        ],
+        "role": "Member"
+    },
+    "6": {
+        "email": "mo@gmail.com",
+        "password": "123456",
+        "role": "Member",
+        "name": "undefined",
+        "phone": "01286062999",
+        "age": 0,
+        "gender": "male",
+        "borrowed_items": []
+    },
+    "7": {
+        "email": "co@gmail.com",
+        "password": "12t4534",
+        "role": "Member",
+        "name": "lkgdsfjlk",
+        "phone": "01286062968",
+        "age": 1234,
+        "gender": "male",
+        "borrowed_items": []
+    }
+}
