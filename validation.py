@@ -1,77 +1,81 @@
-from constants import *
 import re
+from constants import *
+
 class Validation:
 
     @staticmethod
-    def get_key(allowed_list,message = "Enter key\n"):
+    def get_key(allowed_list, message="Enter key\n"):
         while True:
-            print("\n" + " ,".join(allowed_list) + "\n")
-            key = input(message).strip()
-            if key in allowed_list:
+            print("\nAllowed keys: " + ", ".join(allowed_list))
+            key = input(message).strip().lower()
+            if key in [item.lower() for item in allowed_list]:
                 return key
-            print("Invalid Choice")
+            print("Invalid Choice. Please choose from the available keys.")
             
     @staticmethod
-    def get_item_type(message = "choose a type  "):    
-        message = message + "\nb (for book), mgz (for magazine) or  dr (for digital resource):"
+    def get_item_type(message="Choose a type"):    
+        full_message = f"{message}\nb (for book), mgz (for magazine), or dr (for digital resource): "
         while True:
-            item_type = input(message).lower()
+            item_type = input(full_message).strip().lower()
             if item_type in ["b", "mgz", "dr"]:
                 return item_type
-            print("Invalid Input")
+            print("Invalid Input. Please enter 'b', 'mgz', or 'dr'.")
 
     @staticmethod
-    def get_id(message):
+    def get_id(message="Enter ID: "):
         while True:
-            id = input(message)
-            if id.isdigit():
-                return id
-            print("Invalid Input, ID must be of digits only")
+            user_id = input(message).strip()
+            if user_id.isdigit():
+                return user_id
+            print("Invalid Input, ID must contain digits only.")
 
- 
     @staticmethod
     def get_gender():
-        print("Please Enter your gender:")
+        print("\nPlease Enter your gender:")
         print("1) Male")
         print("2) Female")
         print("3) Other")
-        gender_input = input("").strip()
+        gender_input = input("Choose (1-3): ").strip()
         gender_map = {"1": "male", "2": "female"}
         return gender_map.get(gender_input, "other")
 
     @staticmethod
-    def get_phone(message = "Please Enter your phone: "):
-        """
-        get the right pone from the user by checking with an phone regex
-        """
+    def get_phone(message="Please enter your phone: "):
+        """Get a valid phone number using phone regex."""
         while True:
-            phone = input(message)
+            phone = input(message).strip()
+            # التأكد من مطابقة الـ Regex المعرف في constants.py
             if re.match(PHONE_REGEX, phone):
                 return phone
-            print("Invalid mobile phone")
+            print("Invalid mobile phone number. Please try again.")
+
     @staticmethod
-    def get_age(message = "Enter your age: "):
+    def get_age(message="Enter your age: "):
         while True:
-            age_input = input(message)
+            age_input = input(message).strip()
             if age_input.isdigit():
-                return int(age_input)
-            print("Invalid age, numbers only")
+                age = int(age_input)
+                if 0 < age < 120:  # إضافة تحقق منطقي للعمر
+                    return age
+                print("Please enter a realistic age.")
+            else:
+                print("Invalid age, numbers only.")
 
     @staticmethod
     def get_email():
-        """
-        get the right email from the user by checking with an email regex
-        """
+        """Get a valid email using email regex."""
         while True:
-            email = input("Please Enter your email: ")
-            if re.match(Email_REGEX, email):
+            email = input("Please enter your email: ").strip()
+            # استخدام Email_REGEX أو EMAIL_REGEX حسب المعرف في constants
+            regex_pattern = globals().get("Email_REGEX") or globals().get("EMAIL_REGEX", r"^[\w\.-]+@[\w\.-]+\.\w+$")
+            if re.match(regex_pattern, email):
                 return email
-            print("Invalid email address")
+            print("Invalid email address format.")
 
     @staticmethod
-    def get_password():
+    def get_password(message="Enter a 6-character password: "):
         while True:
-            password = input("Enter a 6-character password: ")
+            password = input(message)
             if len(password) >= 6:
                 return password
-            print("Too short")
+            print("Password is too short. It must be at least 6 characters.")

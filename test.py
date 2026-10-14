@@ -1,4 +1,5 @@
 from auth_service import AuthService
+from 
 from output import *
 from input import *
 
@@ -7,7 +8,7 @@ def show_user_menu(member):
     while True:
         print_user_menu(member.get_name())
         choice = read_number_in_range("Select an option (1-9): ",9,1 )       
-            
+        if 
         if choice == 3:
             member.show_borrowed_items()
                 

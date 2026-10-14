@@ -6,7 +6,7 @@
         "phone": "01286062968",
         "age": 21,
         "gender": "",
-        "role": "Manager"
+        "role": "Admin"
     },
     "2": {
         "name": "Ali",
@@ -72,6 +72,16 @@
         "phone": "01286062968",
         "age": 1234,
         "gender": "male",
+        "borrowed_items": []
+    },
+    "8": {
+        "name": "mohamed",
+        "email": "Lfjdljfl@gmail.com",
+        "password": "33434343434",
+        "phone": "01286062968",
+        "age": 33,
+        "gender": "male",
+        "role": "Member",
         "borrowed_items": []
     }
 }

@@ -1,133 +1,122 @@
 import json
 from user_repository import UserRepository
 from data_repository import DataRepository
+
 class ItemRepository(DataRepository):
     _file_path = "items.json"
     _data_dict = None
+
     @classmethod
-    def display_all_data(cls,role = "Member"):
+    def display_all_data(cls, role="Member"):
         items = cls.get_all()
+        if not items:
+            print("No items found.")
+            return
         for data_id in items:
-            cls.display_info(data_id,role)
+            cls.display_info(data_id)
+            print("-" * 40)
             
     @classmethod
-    def display_info(cls,item_id,role = "Member"):
-        """To return item Data"""
-
+    def display_info(cls, item_id):
         item = cls.get_by_id(item_id)
         if not item:
+            print(f"Item with ID {item_id} not found.")
             return
-        borrowed_info = ""
-        if not item.get('is_available') and item.get('borrowed_by') and role == "Manager":
-            user_details = UserRepository.get_info(item['borrowed_by'])
-            borrowed_info = f"\nBorrowed By:\n  {user_details}"
 
-        print (
-        f"ID = {item_id} | " +
-        f"Category: {item['category']} | " +
-        f"title: {item['title']} | " +
-        (f"Author: {item.get('author')}" if item.get('author','') else '') + ' | ' +
-        (f"ISBN: {item.get('isbn')} | " if item.get('isbn','') else '') +
-        (f"issue number: {item.get('issue_number')} | " if item.get('issue_number','') else '') +
-        (f"Publisher: {item.get('publisher')} | " if item.get('publisher','') else '') +
-        (f"file format: {item.get('file_format')} | " if item.get('file_format','') else '') +
-        (f"download_url: {item.get('download_url')} | " if item.get('download_url','') else '') +
-        f"Item Type: {item.get('type','')} | "+
-        f"Status: "
-        f"{'available' if item['is_available'] 
-           else 'unavailable'}" 
-        f"{borrowed_info}"
+        keywords = ", ".join(item.get("keywords", [])) if isinstance(item.get("keywords"), list) else item.get("keywords")
+
+        print(
+            f"ID: {item_id} | "
+            f"Name: {item.get('name')} \n"
+            f"Category: {item.get('category')} | "
+            f"Color: {item.get('color')} \n"
+            f"Location: {item.get('location')} | "
+            f"Date: {item.get('date')} \n"
+            f"Description: {item.get('description')} \n"
+            f"Keywords: {keywords} \n"
+            f"Related User: {item.get('related_user')} | "
+            f"Report Type: {item.get('report_type')} | "
+            f"Is Open: {item.get('is_open')}"
         )
 
     @classmethod
-    def show_available_items(cls):
-        cls.search("is_available",True)
-
-    @classmethod
-    def show_unavailable_items(cls,role = "Member"):
-        cls.search("is_available",False,role)
-
-    @classmethod
-    def borrow_item(cls,user_id,item_id):
+    def show_lost_items(cls):
         items = cls.get_all()
-        users = UserRepository.get_all()
+        lost_items = {k: v for k, v in items.items() if v.get("report_type") == "lost"}
         
-        if item_id not in items and user_id not in users:
-            print("Item and User are Not Found")
-        
-        elif item_id not in items:
-            print("Item Not Found")
+        if not lost_items:
+            print("No lost items reported.")
+            return
             
-        elif user_id not in users:
-           print("User Not found")
-    
-        else:
-            if UserRepository.is_manager(users.get(user_id).get("role")):
-                print("A manager can not borrow items")
-            else:
-                if item_id in users.get(user_id).get('borrowed_items'):
-                    print("You are already borrowing this item")
-                    return
-                if items[item_id]["is_available"]:
-                    users[user_id]["borrowed_items"].append(item_id)
-                    cls.mark_borrowed(item_id)
-                    items[item_id]["borrowed_by"] = user_id
-                    UserRepository.save_data()
-                    cls.save_data()
-                    print("Item Borrorwed Successfully ✅✅")
-                    return True
-                else:
-                    print("This item is un available")
-                    return False
-        
-    @classmethod
-    def return_item(cls,user_id,item_id):
-        items = cls.get_all()
-        users = UserRepository.get_all()
+        print("--- Lost Items ---")
+        for item_id in lost_items:
+            cls.display_info(item_id)
+            print("-" * 30)
 
-        if item_id not in items and user_id not in users:
-            print("Item and user are Not found")
-            return None
+    @classmethod
+    def show_found_items(cls):
+        items = cls.get_all()
+        found_items = {k: v for k, v in items.items() if v.get("report_type") == "found"}
         
-        elif item_id not in items:
-            print("Item Not Found")
-            return None
-        
-        elif user_id not in users:
-            print("User Not found")
-            return None
-        user_borrowed_books = users[user_id]["borrowed_items"]
-        if item_id in items:
-            if not items[item_id]["is_available"]:
-    
-                if item_id in user_borrowed_books:  
-                    users[user_id]["borrowed_items"].remove(item_id)
-                    cls.mark_returned(item_id)
-                    items[item_id]["borrowed_by"] = ""
-                    UserRepository.save_data()
-                    cls.save_data()
-                    return items[item_id]
-    
-                else:
-                    print("This user never borrowed this item")
-            else:
-                print("This item is already unborrowed")
-        else:
-            print("This item does not exits")
+        if not found_items:
+            print("No found items reported.")
+            return
             
-        return None
+        print("--- Found Items ---")
+        for item_id in found_items:
+            cls.display_info(item_id)
+            print("-" * 30)
+
     @classmethod
-    def borrow_rule(cls):
-        return "Standard 14-day borrowing period"
-    
-    @classmethod
-    def mark_borrowed(cls,item_id):
+    def mark_as_lost(cls, item_id):
         items = cls.get_all()
         if item_id in items:
-            items[item_id]["is_available"] = False
+            items[item_id]["is_open"] = True
+            items[item_id]["report_type"] = "lost"
+            cls.save_data()
+            print(f"Item {item_id} marked as Lost.")
+        else:
+            print("Item not found.")
         
     @classmethod
-    def mark_returned(cls,item_id):
+    def mark_as_found(cls, item_id):
         items = cls.get_all()
-        items[item_id]["is_available"] = True
-    
+        if item_id in items:
+            items[item_id]["report_type"] = "found"
+            cls.save_data()
+            print(f"Item {item_id} marked as Found.")
+        else:
+            print("Item not found.")
+
+    @classmethod
+    def close_report(cls, item_id):
+        items = cls.get_all()
+        if item_id in items:
+            items[item_id]["is_open"] = False
+            cls.save_data()
+            print(f"Report for item {item_id} has been closed.")
+            return True
+        else:
+            print("Item not found.")
+            return False
+
+from item_repository import ItemRepository
+
+print("=== 1. Display All Items ===")
+ItemRepository.display_all_data()
+print()
+print("\n=== 2. Show Only Lost Items ===")
+ItemRepository.show_lost_items()
+print()
+print("\n=== 3. Show Only Found Items ===")
+ItemRepository.show_found_items()
+print()
+print("\n=== 4. Test Closing a Report (ID: 1) ===")
+ItemRepository.close_report("1")
+print()
+print("\n=== 5. Test Changing Status to Lost (ID: 2) ===")
+ItemRepository.mark_as_lost("2")
+print()
+print("\n=== 6. Display Specific Item Info (ID: 1) ===")
+ItemRepository.display_info("1")
+print()

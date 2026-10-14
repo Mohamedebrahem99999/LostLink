@@ -1,102 +1,69 @@
+from account import Account
 from user_repository import UserRepository
-from validation import *
-# =================================================================
-# =======================  Base Class: Account  ======================
-# =================================================================
-class Account:
+from validation import Validation
+from input import read_number_in_range
+from output import show_edit_list
+# from item_repository import ItemRepository
 
+class User(Account):
     def __init__(
         self,
         user_id,
+        name,
         email,
         password,
-        role = "Member",
-        name="undefined",
-        phone = "",
-        age = 0,
-        gender = "",
+        phone="",
+        age=0,
+        gender="",
+        borrowed_items=None,
     ):
-      self._user_id = user_id
-      self.set_name(name)
-      self.set_email(email)
-      self.set_password(password)
-      self.set_phone(phone)
-      self.set_age(age)
-      self.set_gender(gender)
-      self.set_role(role)
-    
-    def get_user_id(self):
-        return self._user_id
-    
-    def get_password(self):
-        return self._password
-
-    def set_password(self, password):
-        self._password = password
-
-    def get_phone(self):
-        return self._phone
-
-    def set_phone(self, phone):
-      self._phone = phone
-
-    def get_age(self):
-        return self._age
-
-    def set_age(self, age):
-        self._age = age
-
-    def get_gender(self):
-        return self._gender
-
-    def set_gender(self, gender):
-        self._gender = gender
-
-    def set_role(self,role):
-        self._role = role
-
-    def get_role(self):
-        return self._role
-    
-    def set_name(self,name):
-      self._name = name
-
-    def get_name(self):
-      return self._name
-
-    def set_email(self,email):
-      self._email = email
-    
-    def get_email(self):
-      return self._email
+        super().__init__(
+            user_id=user_id,
+            name=name,
+            email=email,
+            password=password,
+            phone=phone,
+            age=age,
+            gender=gender,
+            role="Member"
+        )
+        self._borrowed_items = borrowed_items or []
 
     def display_profile(self):
-      return (
-          f"ID: {self._user_id} | Name: {self._name} | Email: {self._email} | "
-          f"Phone: {self._phone} | Age: {self._age} | Gender: {self._gender} | "
-          f"Role: {self._role}"
-      )
+        base_info = super().display_profile()
+        return f"{base_info} | Borrowed Items: {len(self._borrowed_items)}"
+
+    def show_borrowed_items(self):
+        print("\n___ Borrowed Items ___")
+        users_data = UserRepository.get_all()
+        user_info = users_data.get(self.get_user_id(), {})
+        borrowed_ids = user_info.get("borrowed_items", [])
+        if borrowed_ids:
+            for item_id in borrowed_ids:
+                # ItemRepository.display_info(item_id)
+                pass
+        else:
+            print("No borrowed items found.")
 
     @staticmethod
-    def add_user():
-      print("\n___ Add New User ___")
-      
-      email = Validation.get_email()
-      password = Validation.get_password()
-      name = input("Enter Name [default: undefined]: ").strip() or "undefined"
-      phone = Validation.get_phone()
-      age = Validation.get_age()
-      gender = Validation.get_gender()
+    def edit_user_data(user_id):
+        edit_list = ["name", "phone", "age", "password", "cancel"]
+        show_edit_list(edit_list)
+        en_edit_list = dict(enumerate(edit_list))
 
-      user_data = {
-          "email": email,
-          "password": password,
-          "role": "Member",
-          "name": name,
-          "phone": phone,
-          "age": age,
-          "gender": gender,
-          "borrowed_items": []
-      }
-      
-      UserRepository.add_entry(user_data)
+        choice = read_number_in_range("Select what to update (1-5): ", 5, 1)
+        new_data = None
+        if choice == 1:
+            new_data = input("Enter new name: ").strip()
+        elif choice == 2:
+            new_data = Validation.get_phone()
+        elif choice == 3:
+            new_data = Validation.get_age()
+        elif choice == 4:
+            new_data = Validation.get_password()
+        elif choice == 5:
+            return
+        else:
+            print("Invalid choice.")
+            return 
+        UserRepository.update_data(user_id, en_edit_list[choice - 1], new_data)
