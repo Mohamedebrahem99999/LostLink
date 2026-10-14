@@ -1,9 +1,8 @@
 from datetime import datetime , date
 import re
-from multiprocessing.spawn import old_main_modules
+from constants import DATE_PATTERN , VALID_STATUSES , CATEGORIES
 
 ID_PATTERN = r"^[LF]\d{3}$"
-DATE_PATTERN = r"^\d{4}-\d{2}-\d{2}$"
 
 
 #======================================
@@ -44,8 +43,7 @@ class MissingFieldError(Exception):
 #==================================
 #THE MAIN PROGRAM
 #==================================
-VALID_STATUSES = ["open", "matched", "claimed", "closed"]
-CATEGORIES = ["phone" , "wallet" , "keys" , "bag" , "document" , "electronics" , "clothing" , "other"]
+# VALID_STATUSES and CATEGORIES now come from constants.py
 class Item:
     def __init__(self , item_id , category , color , location , date , description , status = "open"):
         self.item_id = item_id
