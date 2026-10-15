@@ -1,10 +1,10 @@
 {
     "1": {
-        "name": "Leather Wallet",
         "category": "wallet",
         "color": "black",
         "location": "Mansoura University",
         "date": "2026-10-10",
+        "name": "Leather Wallet",
         "description": "Black leather wallet containing a university ID",
         "keywords": [
             "leather",
@@ -12,8 +12,8 @@
             "university ID"
         ],
         "related_user": "1",
-        "report_type": "found",
-        "is_open": false
+        "report_type": "lost",
+        "is_open": true
     },
     "2": {
         "category": "wallet",
@@ -28,7 +28,7 @@
             "main entrance"
         ],
         "related_user": "2",
-        "report_type": "lost",
+        "report_type": "found",
         "is_open": true
     }
 }
