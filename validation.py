@@ -79,3 +79,38 @@ class Validation:
             if len(password) >= 6:
                 return password
             print("Password is too short. It must be at least 6 characters.")
+
+    @staticmethod
+    def check_report_type(report_type):
+        return report_type in ["lost", "found"]
+
+    @staticmethod
+    def check_report_date(date):
+        from datetime import datetime
+        try:
+            datetime.strptime(date, "%Y-%m-%d")
+            return True
+
+        except (ValueError, TypeError):
+            return False
+
+    @staticmethod
+    def check_required_fields(item):
+        required_fields = [
+            "name",
+            "category",
+            "location",
+            "date",
+            "report_type"
+        ]
+
+        return all(
+
+            isinstance(item.get(field), str) and bool(item.get(field).strip())
+
+            for field in required_fields
+        )
+
+    @staticmethod
+    def check_color(color):
+        return isinstance(color, str) and bool(color.strip())
