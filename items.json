@@ -13,7 +13,7 @@
         ],
         "related_user": "1",
         "report_type": "lost",
-        "is_open": true
+        "is_open": false
     },
     "2": {
         "category": "wallet",
@@ -28,7 +28,3807 @@
             "main entrance"
         ],
         "related_user": "2",
-        "report_type": "found",
+        "report_type": "lost",
         "is_open": true
+    },
+    "3": {
+        "name": "Samsung Phone",
+        "category": "phone",
+        "color": "blue",
+        "location": "NUSC",
+        "date": "2026-10-15",
+        "description": "A blue samsung phone was lost in NUSC cafeteria",
+        "keywords": [
+            "samsung",
+            "phone",
+            "a",
+            "blue",
+            "was",
+            "lost",
+            "in",
+            "nusc",
+            "cafeteria"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed"
+    },
+    "4": {
+        "name": "Brown Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Campus Bus Stop",
+        "date": "2025-03-05",
+        "description": "Brown eyeglasses reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "campus bus stop",
+            "eyeglasses"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "5": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Auditorium",
+        "date": "2025-09-10",
+        "description": "Silver key set reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "auditorium",
+            "key"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "6": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Faculty of Engineering",
+        "date": "2025-04-27",
+        "description": "Gray laptop reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "faculty of engineering"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "7": {
+        "name": "Gray University ID Card",
+        "category": "ID",
+        "color": "gray",
+        "location": "Parking Area",
+        "date": "2025-04-03",
+        "description": "University ID Card reported found at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "gray",
+            "parking area",
+            "university"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "8": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "mixed",
+        "location": "Faculty of Engineering",
+        "date": "2025-07-31",
+        "description": "Mixed smartphone reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "mixed",
+            "faculty of engineering",
+            "smartphone"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "9": {
+        "name": "Silver Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Central Cafeteria",
+        "date": "2025-02-17",
+        "description": "Silver key set reported lost at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "central cafeteria",
+            "key"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "10": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "gray",
+        "location": "Mansoura University",
+        "date": "2026-02-16",
+        "description": "Gray wireless headphones reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "gray",
+            "mansoura university",
+            "wireless"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "11": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Main Entrance",
+        "date": "2025-08-03",
+        "description": "Green water bottle reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "main entrance",
+            "water"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "12": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Parking Area",
+        "date": "2025-09-02",
+        "description": "Backpack reported found at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "parking area",
+            "backpack"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "13": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Student Activities Building",
+        "date": "2025-12-22",
+        "description": "Gray laptop reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "student activities building"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "14": {
+        "name": "Mixed Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Science Building",
+        "date": "2025-10-22",
+        "description": "Mixed textbooks reported lost at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "science building",
+            "textbooks"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "15": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Parking Area",
+        "date": "2026-07-08",
+        "description": "University ID Card reported found at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "parking area",
+            "university"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "16": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "NUSC",
+        "date": "2026-05-03",
+        "description": "Gray laptop reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "nusc"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "17": {
+        "name": "Wristwatch",
+        "category": "watch",
+        "color": "mixed",
+        "location": "Sports Center",
+        "date": "2026-04-05",
+        "description": "Mixed wristwatch reported lost at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "mixed",
+            "sports center",
+            "wristwatch"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "18": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Science Building",
+        "date": "2025-02-16",
+        "description": "White university id card reported lost at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "science building",
+            "university"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "19": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Science Building",
+        "date": "2026-09-14",
+        "description": "University ID Card reported found at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "science building",
+            "university"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "20": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Campus Bus Stop",
+        "date": "2026-07-12",
+        "description": "Gray laptop reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "campus bus stop"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "21": {
+        "name": "Blue Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Main Entrance",
+        "date": "2025-04-08",
+        "description": "Blue umbrella reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "main entrance"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "22": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Parking Area",
+        "date": "2025-12-20",
+        "description": "Key Set reported found at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "parking area",
+            "key"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "23": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "blue",
+        "location": "Parking Area",
+        "date": "2026-02-08",
+        "description": "Blue wireless headphones reported lost at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "blue",
+            "parking area",
+            "wireless"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "24": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "pink",
+        "location": "Main Entrance",
+        "date": "2025-06-13",
+        "description": "Pink backpack reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "pink",
+            "main entrance",
+            "backpack"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "25": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Auditorium",
+        "date": "2025-05-14",
+        "description": "Blue smartphone reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "auditorium",
+            "smartphone"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "26": {
+        "name": "Beige Eyeglasses",
+        "category": "glasses",
+        "color": "beige",
+        "location": "Main Library",
+        "date": "2025-09-23",
+        "description": "Eyeglasses reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "beige",
+            "main library",
+            "eyeglasses"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "27": {
+        "name": "Silver Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Faculty of Engineering",
+        "date": "2025-12-13",
+        "description": "Key Set reported found at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "faculty of engineering",
+            "key"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "28": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "gray",
+        "location": "Lecture Hall A",
+        "date": "2026-02-10",
+        "description": "Gray smartphone reported lost at Lecture Hall A. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "gray",
+            "lecture hall a",
+            "smartphone"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "29": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Faculty of Commerce",
+        "date": "2025-01-20",
+        "description": "Scientific Calculator reported found at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "faculty of commerce",
+            "scientific"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "30": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "mixed",
+        "location": "Faculty of Computer Science",
+        "date": "2026-03-16",
+        "description": "Mixed backpack reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "mixed",
+            "faculty of computer science",
+            "backpack"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "31": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Computer Lab",
+        "date": "2025-12-30",
+        "description": "Brown eyeglasses reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "computer lab",
+            "eyeglasses"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "32": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "NUSC",
+        "date": "2026-02-13",
+        "description": "Brown eyeglasses reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "nusc",
+            "eyeglasses"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "33": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Study Lounge",
+        "date": "2025-11-09",
+        "description": "University ID Card reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "study lounge",
+            "university"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "34": {
+        "name": "White Water Bottle",
+        "category": "water bottle",
+        "color": "white",
+        "location": "Auditorium",
+        "date": "2025-07-05",
+        "description": "White water bottle reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "white",
+            "auditorium",
+            "water"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "35": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "silver",
+        "location": "Main Entrance",
+        "date": "2025-12-26",
+        "description": "Eyeglasses reported found at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "silver",
+            "main entrance",
+            "eyeglasses"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "36": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "brown",
+        "location": "Main Entrance",
+        "date": "2026-05-19",
+        "description": "USB Flash Drive reported found at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "brown",
+            "main entrance",
+            "usb"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "37": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Campus Bus Stop",
+        "date": "2025-07-14",
+        "description": "Brown eyeglasses reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "campus bus stop",
+            "eyeglasses"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "38": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "blue",
+        "location": "Auditorium",
+        "date": "2026-04-10",
+        "description": "USB Flash Drive reported found at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "blue",
+            "auditorium",
+            "usb"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "39": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Faculty of Engineering",
+        "date": "2026-10-02",
+        "description": "Wireless Headphones reported found at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "faculty of engineering",
+            "wireless"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "40": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Main Library",
+        "date": "2025-04-13",
+        "description": "Wireless Headphones reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "main library",
+            "wireless"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "41": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "green",
+        "location": "NUSC",
+        "date": "2025-11-27",
+        "description": "Umbrella reported found at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "green",
+            "nusc"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "42": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Student Activities Building",
+        "date": "2026-09-16",
+        "description": "Eyeglasses reported found at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "student activities building",
+            "eyeglasses"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "43": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Faculty of Commerce",
+        "date": "2026-06-12",
+        "description": "Textbooks reported found at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "faculty of commerce",
+            "textbooks"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "44": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Student Affairs",
+        "date": "2026-02-01",
+        "description": "University ID Card reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "student affairs",
+            "university"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "45": {
+        "name": "Mixed Backpack",
+        "category": "bag",
+        "color": "mixed",
+        "location": "Sports Center",
+        "date": "2026-01-30",
+        "description": "Mixed backpack reported lost at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "mixed",
+            "sports center",
+            "backpack"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "46": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Mansoura University",
+        "date": "2026-08-07",
+        "description": "Black scientific calculator reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "mansoura university",
+            "scientific"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "47": {
+        "name": "Gray Leather Wallet",
+        "category": "wallet",
+        "color": "gray",
+        "location": "Student Activities Building",
+        "date": "2025-05-05",
+        "description": "Gray leather wallet reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "gray",
+            "student activities building",
+            "leather"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "48": {
+        "name": "Blue Laptop",
+        "category": "laptop",
+        "color": "blue",
+        "location": "Auditorium",
+        "date": "2025-07-21",
+        "description": "Blue laptop reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "blue",
+            "auditorium"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "49": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "mixed",
+        "location": "Faculty of Commerce",
+        "date": "2025-03-28",
+        "description": "Mixed leather wallet reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "mixed",
+            "faculty of commerce",
+            "leather"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "50": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "green",
+        "location": "Faculty of Computer Science",
+        "date": "2026-10-02",
+        "description": "Smartphone reported found at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "green",
+            "faculty of computer science",
+            "smartphone"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "51": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Faculty of Engineering",
+        "date": "2026-01-06",
+        "description": "Blue umbrella reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "faculty of engineering"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "52": {
+        "name": "Black USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Study Lounge",
+        "date": "2025-01-26",
+        "description": "USB Flash Drive reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "study lounge",
+            "usb"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "53": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Faculty of Engineering",
+        "date": "2025-02-26",
+        "description": "Laptop reported found at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "faculty of engineering"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "54": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Auditorium",
+        "date": "2026-08-21",
+        "description": "Black leather wallet reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "auditorium",
+            "leather"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "55": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Faculty of Engineering",
+        "date": "2025-10-27",
+        "description": "USB Flash Drive reported found at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "faculty of engineering",
+            "usb"
+        ],
+        "related_user": "7",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "56": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "white",
+        "location": "Auditorium",
+        "date": "2026-04-06",
+        "description": "White water bottle reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "white",
+            "auditorium",
+            "water"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "57": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "white",
+        "location": "Computer Lab",
+        "date": "2025-10-19",
+        "description": "White phone charger reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "white",
+            "computer lab",
+            "phone"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "58": {
+        "name": "Navy Wristwatch",
+        "category": "watch",
+        "color": "navy",
+        "location": "Faculty of Commerce",
+        "date": "2026-03-15",
+        "description": "Navy wristwatch reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "navy",
+            "faculty of commerce",
+            "wristwatch"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "59": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Campus Bus Stop",
+        "date": "2025-04-18",
+        "description": "Backpack reported found at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "campus bus stop",
+            "backpack"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "60": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Student Affairs",
+        "date": "2026-01-07",
+        "description": "University ID Card reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "student affairs",
+            "university"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "61": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "NUSC",
+        "date": "2026-04-16",
+        "description": "Brown eyeglasses reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "nusc",
+            "eyeglasses"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "62": {
+        "name": "Black Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "NUSC",
+        "date": "2025-01-27",
+        "description": "Scientific Calculator reported found at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "nusc",
+            "scientific"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "63": {
+        "name": "Black Eyeglasses",
+        "category": "glasses",
+        "color": "black",
+        "location": "Student Affairs",
+        "date": "2025-08-10",
+        "description": "Eyeglasses reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "black",
+            "student affairs",
+            "eyeglasses"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "64": {
+        "name": "Gray Backpack",
+        "category": "bag",
+        "color": "gray",
+        "location": "Central Cafeteria",
+        "date": "2025-08-24",
+        "description": "Backpack reported found at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "gray",
+            "central cafeteria",
+            "backpack"
+        ],
+        "related_user": "7",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "65": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Study Lounge",
+        "date": "2026-07-27",
+        "description": "Mixed textbooks reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "study lounge",
+            "textbooks"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "66": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Campus Bus Stop",
+        "date": "2025-07-16",
+        "description": "Scientific Calculator reported found at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "campus bus stop",
+            "scientific"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "67": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "pink",
+        "location": "Main Library",
+        "date": "2025-01-27",
+        "description": "Pink laptop reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "pink",
+            "main library"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "68": {
+        "name": "Pink Leather Wallet",
+        "category": "wallet",
+        "color": "pink",
+        "location": "Main Library",
+        "date": "2025-01-11",
+        "description": "Pink leather wallet reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "pink",
+            "main library",
+            "leather"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "69": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Mansoura University",
+        "date": "2025-06-04",
+        "description": "Eyeglasses reported found at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "mansoura university",
+            "eyeglasses"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "70": {
+        "name": "Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "Main Library",
+        "date": "2026-08-07",
+        "description": "Wristwatch reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "main library",
+            "wristwatch"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "71": {
+        "name": "Mixed Wireless Headphones",
+        "category": "headphones",
+        "color": "mixed",
+        "location": "Main Library",
+        "date": "2026-09-07",
+        "description": "Wireless Headphones reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "mixed",
+            "main library",
+            "wireless"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "72": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "black",
+        "location": "NUSC",
+        "date": "2025-11-11",
+        "description": "Black textbooks reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "black",
+            "nusc",
+            "textbooks"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "73": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Parking Area",
+        "date": "2025-03-01",
+        "description": "Black leather wallet reported lost at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "parking area",
+            "leather"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "74": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "blue",
+        "location": "Student Affairs",
+        "date": "2025-01-12",
+        "description": "Blue eyeglasses reported lost at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "blue",
+            "student affairs",
+            "eyeglasses"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "75": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "blue",
+        "location": "Sports Center",
+        "date": "2025-09-26",
+        "description": "Leather Wallet reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "blue",
+            "sports center",
+            "leather"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "76": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "pink",
+        "location": "Student Affairs",
+        "date": "2026-03-28",
+        "description": "Water Bottle reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "pink",
+            "student affairs",
+            "water"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "77": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Lecture Hall A",
+        "date": "2025-03-20",
+        "description": "White wireless headphones reported lost at Lecture Hall A. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "lecture hall a",
+            "wireless"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "78": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Main Entrance",
+        "date": "2025-01-21",
+        "description": "Smartphone reported found at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "main entrance",
+            "smartphone"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "79": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Lecture Hall A",
+        "date": "2025-11-21",
+        "description": "Backpack reported found at Lecture Hall A. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "lecture hall a",
+            "backpack"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "80": {
+        "name": "Brown Scientific Calculator",
+        "category": "calculator",
+        "color": "brown",
+        "location": "Main Entrance",
+        "date": "2025-10-31",
+        "description": "Brown scientific calculator reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "brown",
+            "main entrance",
+            "scientific"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "81": {
+        "name": "Black Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "NUSC",
+        "date": "2025-07-09",
+        "description": "Wristwatch reported found at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "nusc",
+            "wristwatch"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "82": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "beige",
+        "location": "Computer Lab",
+        "date": "2025-09-03",
+        "description": "Beige eyeglasses reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "beige",
+            "computer lab",
+            "eyeglasses"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "83": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Central Cafeteria",
+        "date": "2026-10-15",
+        "description": "Blue umbrella reported lost at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "central cafeteria"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "84": {
+        "name": "Black USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Campus Bus Stop",
+        "date": "2026-04-30",
+        "description": "Black usb flash drive reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "campus bus stop",
+            "usb"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "85": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Study Lounge",
+        "date": "2025-06-17",
+        "description": "Water Bottle reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "study lounge",
+            "water"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "86": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Study Lounge",
+        "date": "2025-10-20",
+        "description": "Blue smartphone reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "study lounge",
+            "smartphone"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "87": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "black",
+        "location": "Science Building",
+        "date": "2025-12-15",
+        "description": "Black phone charger reported lost at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "black",
+            "science building",
+            "phone"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "88": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "mixed",
+        "location": "Computer Lab",
+        "date": "2025-05-26",
+        "description": "Mixed smartphone reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "mixed",
+            "computer lab",
+            "smartphone"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "89": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Faculty of Engineering",
+        "date": "2026-03-08",
+        "description": "Brown eyeglasses reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "faculty of engineering",
+            "eyeglasses"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "90": {
+        "name": "Navy Wireless Headphones",
+        "category": "headphones",
+        "color": "navy",
+        "location": "Mansoura University",
+        "date": "2025-11-22",
+        "description": "Navy wireless headphones reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "navy",
+            "mansoura university",
+            "wireless"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "91": {
+        "name": "Black USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Mansoura University",
+        "date": "2026-06-16",
+        "description": "Black usb flash drive reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "mansoura university",
+            "usb"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "92": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Computer Lab",
+        "date": "2025-11-29",
+        "description": "Backpack reported found at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "computer lab",
+            "backpack"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "93": {
+        "name": "Black Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "NUSC",
+        "date": "2026-09-07",
+        "description": "Black wristwatch reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "nusc",
+            "wristwatch"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "94": {
+        "name": "Blue Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Science Building",
+        "date": "2025-02-07",
+        "description": "Umbrella reported found at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "science building"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "95": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "mixed",
+        "location": "Study Lounge",
+        "date": "2026-06-09",
+        "description": "Scientific Calculator reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "mixed",
+            "study lounge",
+            "scientific"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "96": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Main Entrance",
+        "date": "2025-03-01",
+        "description": "White university id card reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "main entrance",
+            "university"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "97": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Mansoura University",
+        "date": "2025-01-05",
+        "description": "Black scientific calculator reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "mansoura university",
+            "scientific"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "98": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "white",
+        "location": "NUSC",
+        "date": "2025-09-30",
+        "description": "White phone charger reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "white",
+            "nusc",
+            "phone"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "99": {
+        "name": "Red Phone Charger",
+        "category": "charger",
+        "color": "red",
+        "location": "NUSC",
+        "date": "2026-08-12",
+        "description": "Red phone charger reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "red",
+            "nusc",
+            "phone"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "100": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "brown",
+        "location": "Sports Center",
+        "date": "2025-01-01",
+        "description": "Phone Charger reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "brown",
+            "sports center",
+            "phone"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "101": {
+        "name": "Black Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "NUSC",
+        "date": "2026-04-27",
+        "description": "Black wristwatch reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "nusc",
+            "wristwatch"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "102": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Study Lounge",
+        "date": "2025-08-09",
+        "description": "Gray laptop reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "study lounge"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "103": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Faculty of Commerce",
+        "date": "2026-02-01",
+        "description": "Blue smartphone reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "faculty of commerce",
+            "smartphone"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "104": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Campus Bus Stop",
+        "date": "2025-05-07",
+        "description": "Mixed textbooks reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "campus bus stop",
+            "textbooks"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "105": {
+        "name": "White Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Student Affairs",
+        "date": "2025-08-11",
+        "description": "White wireless headphones reported lost at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "student affairs",
+            "wireless"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "106": {
+        "name": "Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "Faculty of Commerce",
+        "date": "2026-08-26",
+        "description": "Wristwatch reported found at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "faculty of commerce",
+            "wristwatch"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "107": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Student Activities Building",
+        "date": "2025-02-07",
+        "description": "Silver key set reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "student activities building",
+            "key"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "108": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "beige",
+        "location": "Lecture Hall A",
+        "date": "2026-04-28",
+        "description": "Beige laptop reported lost at Lecture Hall A. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "beige",
+            "lecture hall a"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "109": {
+        "name": "White Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Mansoura University",
+        "date": "2025-08-28",
+        "description": "White wireless headphones reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "mansoura university",
+            "wireless"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "110": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "red",
+        "location": "Parking Area",
+        "date": "2026-10-15",
+        "description": "Red water bottle reported lost at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "red",
+            "parking area",
+            "water"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "111": {
+        "name": "Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "Science Building",
+        "date": "2025-07-11",
+        "description": "Wristwatch reported found at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "science building",
+            "wristwatch"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "112": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Computer Lab",
+        "date": "2026-01-14",
+        "description": "Green water bottle reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "computer lab",
+            "water"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "113": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Sports Center",
+        "date": "2026-09-02",
+        "description": "Eyeglasses reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "sports center",
+            "eyeglasses"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "114": {
+        "name": "Red Umbrella",
+        "category": "umbrella",
+        "color": "red",
+        "location": "Faculty of Commerce",
+        "date": "2025-09-05",
+        "description": "Red umbrella reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "red",
+            "faculty of commerce"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "115": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "gray",
+        "location": "Faculty of Commerce",
+        "date": "2025-11-21",
+        "description": "Gray water bottle reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "gray",
+            "faculty of commerce",
+            "water"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "116": {
+        "name": "Brown Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Main Library",
+        "date": "2026-02-15",
+        "description": "Eyeglasses reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "main library",
+            "eyeglasses"
+        ],
+        "related_user": "7",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "117": {
+        "name": "Pink Textbooks",
+        "category": "books",
+        "color": "pink",
+        "location": "Student Activities Building",
+        "date": "2025-01-17",
+        "description": "Textbooks reported found at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "pink",
+            "student activities building",
+            "textbooks"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "118": {
+        "name": "White University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Mansoura University",
+        "date": "2026-07-20",
+        "description": "University ID Card reported found at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "mansoura university",
+            "university"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "119": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Faculty of Commerce",
+        "date": "2026-08-18",
+        "description": "Black scientific calculator reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "faculty of commerce",
+            "scientific"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "120": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Computer Lab",
+        "date": "2026-07-13",
+        "description": "Black scientific calculator reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "computer lab",
+            "scientific"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "121": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "mixed",
+        "location": "Faculty of Engineering",
+        "date": "2026-05-26",
+        "description": "Mixed leather wallet reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "mixed",
+            "faculty of engineering",
+            "leather"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "122": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Main Library",
+        "date": "2026-06-20",
+        "description": "Blue smartphone reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "main library",
+            "smartphone"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "123": {
+        "name": "Wristwatch",
+        "category": "watch",
+        "color": "black",
+        "location": "Lecture Hall A",
+        "date": "2025-02-14",
+        "description": "Black wristwatch reported lost at Lecture Hall A. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "black",
+            "lecture hall a",
+            "wristwatch"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "124": {
+        "name": "Black Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Sports Center",
+        "date": "2025-04-04",
+        "description": "Black leather wallet reported lost at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "sports center",
+            "leather"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "125": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Faculty of Computer Science",
+        "date": "2026-08-16",
+        "description": "USB Flash Drive reported found at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "faculty of computer science",
+            "usb"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "126": {
+        "name": "Green Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Main Library",
+        "date": "2025-05-27",
+        "description": "Green water bottle reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "main library",
+            "water"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "127": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "beige",
+        "location": "Mansoura University",
+        "date": "2025-09-04",
+        "description": "Key Set reported found at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "beige",
+            "mansoura university",
+            "key"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "128": {
+        "name": "Pink USB Flash Drive",
+        "category": "USB drive",
+        "color": "pink",
+        "location": "Faculty of Computer Science",
+        "date": "2026-03-31",
+        "description": "USB Flash Drive reported found at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "pink",
+            "faculty of computer science",
+            "usb"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "129": {
+        "name": "Blue Wristwatch",
+        "category": "watch",
+        "color": "blue",
+        "location": "Main Entrance",
+        "date": "2026-08-18",
+        "description": "Wristwatch reported found at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "watch",
+            "blue",
+            "main entrance",
+            "wristwatch"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "130": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "white",
+        "location": "Mansoura University",
+        "date": "2025-06-26",
+        "description": "White phone charger reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "white",
+            "mansoura university",
+            "phone"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "131": {
+        "name": "White University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Auditorium",
+        "date": "2025-06-21",
+        "description": "White university id card reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "auditorium",
+            "university"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "132": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Faculty of Computer Science",
+        "date": "2026-08-02",
+        "description": "White university id card reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "faculty of computer science",
+            "university"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "133": {
+        "name": "Mixed Backpack",
+        "category": "bag",
+        "color": "mixed",
+        "location": "Student Affairs",
+        "date": "2026-07-29",
+        "description": "Backpack reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "mixed",
+            "student affairs",
+            "backpack"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "134": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Science Building",
+        "date": "2025-08-09",
+        "description": "Smartphone reported found at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "science building",
+            "smartphone"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "135": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "pink",
+        "location": "Main Library",
+        "date": "2025-05-29",
+        "description": "Pink usb flash drive reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "pink",
+            "main library",
+            "usb"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "136": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "green",
+        "location": "Student Activities Building",
+        "date": "2025-03-28",
+        "description": "Scientific Calculator reported found at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "green",
+            "student activities building",
+            "scientific"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "137": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Auditorium",
+        "date": "2025-05-17",
+        "description": "Black backpack reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "auditorium",
+            "backpack"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "138": {
+        "name": "Gray Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Study Lounge",
+        "date": "2025-10-15",
+        "description": "Laptop reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "study lounge"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "139": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Main Entrance",
+        "date": "2025-12-23",
+        "description": "Blue smartphone reported lost at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "main entrance",
+            "smartphone"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "140": {
+        "name": "Brown Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "NUSC",
+        "date": "2025-09-16",
+        "description": "Brown eyeglasses reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "nusc",
+            "eyeglasses"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "141": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Sports Center",
+        "date": "2025-09-04",
+        "description": "Textbooks reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "sports center",
+            "textbooks"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "142": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Auditorium",
+        "date": "2026-04-06",
+        "description": "Water Bottle reported found at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "auditorium",
+            "water"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "143": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "navy",
+        "location": "Computer Lab",
+        "date": "2025-06-11",
+        "description": "Navy leather wallet reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "navy",
+            "computer lab",
+            "leather"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "144": {
+        "name": "Black Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Sports Center",
+        "date": "2025-12-19",
+        "description": "Scientific Calculator reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "sports center",
+            "scientific"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "145": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Study Lounge",
+        "date": "2025-01-13",
+        "description": "White wireless headphones reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "study lounge",
+            "wireless"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "146": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "beige",
+        "location": "Sports Center",
+        "date": "2026-02-15",
+        "description": "Umbrella reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "beige",
+            "sports center"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "147": {
+        "name": "Black Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Student Affairs",
+        "date": "2026-05-18",
+        "description": "Scientific Calculator reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "student affairs",
+            "scientific"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "148": {
+        "name": "Blue Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Parking Area",
+        "date": "2026-01-20",
+        "description": "Blue smartphone reported lost at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "parking area",
+            "smartphone"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "149": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "white",
+        "location": "Student Activities Building",
+        "date": "2025-11-21",
+        "description": "White phone charger reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "white",
+            "student activities building",
+            "phone"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "150": {
+        "name": "Black Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Student Affairs",
+        "date": "2026-06-21",
+        "description": "Leather Wallet reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "student affairs",
+            "leather"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "151": {
+        "name": "Black Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Auditorium",
+        "date": "2026-08-17",
+        "description": "Black scientific calculator reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "auditorium",
+            "scientific"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "152": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Faculty of Commerce",
+        "date": "2026-08-22",
+        "description": "Black usb flash drive reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "faculty of commerce",
+            "usb"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "153": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Student Activities Building",
+        "date": "2025-05-08",
+        "description": "Wireless Headphones reported found at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "student activities building",
+            "wireless"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "154": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Study Lounge",
+        "date": "2025-04-13",
+        "description": "Backpack reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "study lounge",
+            "backpack"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "155": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "red",
+        "location": "Main Entrance",
+        "date": "2026-07-26",
+        "description": "Key Set reported found at Main Entrance. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "red",
+            "main entrance",
+            "key"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "156": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Sports Center",
+        "date": "2026-03-16",
+        "description": "Backpack reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "sports center",
+            "backpack"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "157": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Faculty of Computer Science",
+        "date": "2025-01-04",
+        "description": "Black backpack reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "faculty of computer science",
+            "backpack"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "158": {
+        "name": "Black Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Computer Lab",
+        "date": "2025-11-15",
+        "description": "Backpack reported found at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "computer lab",
+            "backpack"
+        ],
+        "related_user": "7",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "159": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Parking Area",
+        "date": "2025-02-06",
+        "description": "Blue umbrella reported lost at Parking Area. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "parking area"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "160": {
+        "name": "Silver Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Central Cafeteria",
+        "date": "2026-04-19",
+        "description": "Silver key set reported lost at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "central cafeteria",
+            "key"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "161": {
+        "name": "USB Flash Drive",
+        "category": "USB drive",
+        "color": "black",
+        "location": "Campus Bus Stop",
+        "date": "2025-11-13",
+        "description": "USB Flash Drive reported found at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "black",
+            "campus bus stop",
+            "usb"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "162": {
+        "name": "Leather Wallet",
+        "category": "wallet",
+        "color": "green",
+        "location": "Study Lounge",
+        "date": "2026-09-09",
+        "description": "Leather Wallet reported found at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "green",
+            "study lounge",
+            "leather"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "163": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Auditorium",
+        "date": "2026-01-05",
+        "description": "Blue smartphone reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "auditorium",
+            "smartphone"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "164": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Science Building",
+        "date": "2025-08-06",
+        "description": "Eyeglasses reported found at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "science building",
+            "eyeglasses"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "165": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "gray",
+        "location": "Faculty of Computer Science",
+        "date": "2025-07-20",
+        "description": "Gray phone charger reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "gray",
+            "faculty of computer science",
+            "phone"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "166": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Central Cafeteria",
+        "date": "2025-07-07",
+        "description": "Wireless Headphones reported found at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "central cafeteria",
+            "wireless"
+        ],
+        "related_user": "9",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "167": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "red",
+        "location": "Faculty of Commerce",
+        "date": "2025-07-28",
+        "description": "Water Bottle reported found at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "red",
+            "faculty of commerce",
+            "water"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "168": {
+        "name": "Black Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Faculty of Commerce",
+        "date": "2025-08-24",
+        "description": "Black leather wallet reported lost at Faculty of Commerce. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "faculty of commerce",
+            "leather"
+        ],
+        "related_user": "9",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "169": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "beige",
+        "location": "Faculty of Computer Science",
+        "date": "2025-08-15",
+        "description": "Beige eyeglasses reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "beige",
+            "faculty of computer science",
+            "eyeglasses"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "170": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Study Lounge",
+        "date": "2025-04-08",
+        "description": "Brown eyeglasses reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "study lounge",
+            "eyeglasses"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "171": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "beige",
+        "location": "Student Activities Building",
+        "date": "2025-10-03",
+        "description": "Beige eyeglasses reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "beige",
+            "student activities building",
+            "eyeglasses"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "172": {
+        "name": "Phone Charger",
+        "category": "charger",
+        "color": "white",
+        "location": "Student Affairs",
+        "date": "2025-03-29",
+        "description": "Phone Charger reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "charger",
+            "white",
+            "student affairs",
+            "phone"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "173": {
+        "name": "Key Set",
+        "category": "keys",
+        "color": "silver",
+        "location": "Study Lounge",
+        "date": "2026-04-25",
+        "description": "Silver key set reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "keys",
+            "silver",
+            "study lounge",
+            "key"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "174": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "beige",
+        "location": "Faculty of Computer Science",
+        "date": "2025-12-01",
+        "description": "Beige scientific calculator reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "beige",
+            "faculty of computer science",
+            "scientific"
+        ],
+        "related_user": "10",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "175": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "Computer Lab",
+        "date": "2025-03-30",
+        "description": "White wireless headphones reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "computer lab",
+            "wireless"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "176": {
+        "name": "Green Scientific Calculator",
+        "category": "calculator",
+        "color": "green",
+        "location": "Campus Bus Stop",
+        "date": "2025-08-09",
+        "description": "Green scientific calculator reported lost at Campus Bus Stop. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "green",
+            "campus bus stop",
+            "scientific"
+        ],
+        "related_user": "8",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "177": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "navy",
+        "location": "Student Affairs",
+        "date": "2025-12-08",
+        "description": "Textbooks reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "navy",
+            "student affairs",
+            "textbooks"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "178": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Faculty of Computer Science",
+        "date": "2026-02-23",
+        "description": "Textbooks reported found at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "faculty of computer science",
+            "textbooks"
+        ],
+        "related_user": "4",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "179": {
+        "name": "Eyeglasses",
+        "category": "glasses",
+        "color": "brown",
+        "location": "Central Cafeteria",
+        "date": "2026-09-10",
+        "description": "Brown eyeglasses reported lost at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "glasses",
+            "brown",
+            "central cafeteria",
+            "eyeglasses"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "180": {
+        "name": "White University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Faculty of Computer Science",
+        "date": "2026-03-30",
+        "description": "White university id card reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "faculty of computer science",
+            "university"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "181": {
+        "name": "Green Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Auditorium",
+        "date": "2026-10-19",
+        "description": "Green water bottle reported lost at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "auditorium",
+            "water"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "182": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Sports Center",
+        "date": "2026-05-31",
+        "description": "Smartphone reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "sports center",
+            "smartphone"
+        ],
+        "related_user": "10",
+        "report_type": "found",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "183": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "black",
+        "location": "Faculty of Engineering",
+        "date": "2025-07-04",
+        "description": "Black backpack reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "black",
+            "faculty of engineering",
+            "backpack"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "184": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Study Lounge",
+        "date": "2026-01-18",
+        "description": "Blue umbrella reported lost at Study Lounge. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "study lounge"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "185": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "blue",
+        "location": "Student Activities Building",
+        "date": "2025-05-05",
+        "description": "Blue smartphone reported lost at Student Activities Building. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "blue",
+            "student activities building",
+            "smartphone"
+        ],
+        "related_user": "7",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "186": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "silver",
+        "location": "Sports Center",
+        "date": "2025-05-18",
+        "description": "Umbrella reported found at Sports Center. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "silver",
+            "sports center"
+        ],
+        "related_user": "7",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "187": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "white",
+        "location": "NUSC",
+        "date": "2025-02-20",
+        "description": "Wireless Headphones reported found at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "white",
+            "nusc",
+            "wireless"
+        ],
+        "related_user": "2",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "188": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "Central Cafeteria",
+        "date": "2026-07-09",
+        "description": "Umbrella reported found at Central Cafeteria. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "central cafeteria"
+        ],
+        "related_user": "1",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "189": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Main Library",
+        "date": "2025-09-06",
+        "description": "Scientific Calculator reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "main library",
+            "scientific"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "190": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Science Building",
+        "date": "2026-01-01",
+        "description": "White university id card reported lost at Science Building. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "science building",
+            "university"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "191": {
+        "name": "Black Leather Wallet",
+        "category": "wallet",
+        "color": "black",
+        "location": "Faculty of Computer Science",
+        "date": "2025-05-30",
+        "description": "Black leather wallet reported lost at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "wallet",
+            "black",
+            "faculty of computer science",
+            "leather"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "192": {
+        "name": "Pink USB Flash Drive",
+        "category": "USB drive",
+        "color": "pink",
+        "location": "Main Library",
+        "date": "2025-05-10",
+        "description": "USB Flash Drive reported found at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "USB drive",
+            "pink",
+            "main library",
+            "usb"
+        ],
+        "related_user": "8",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "193": {
+        "name": "Smartphone",
+        "category": "phone",
+        "color": "pink",
+        "location": "NUSC",
+        "date": "2025-12-04",
+        "description": "Pink smartphone reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "phone",
+            "pink",
+            "nusc",
+            "smartphone"
+        ],
+        "related_user": "3",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "194": {
+        "name": "Backpack",
+        "category": "bag",
+        "color": "mixed",
+        "location": "Faculty of Engineering",
+        "date": "2025-03-12",
+        "description": "Mixed backpack reported lost at Faculty of Engineering. Demo record for analytics testing.",
+        "keywords": [
+            "bag",
+            "mixed",
+            "faculty of engineering",
+            "backpack"
+        ],
+        "related_user": "4",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "195": {
+        "name": "Water Bottle",
+        "category": "water bottle",
+        "color": "green",
+        "location": "Student Affairs",
+        "date": "2026-04-07",
+        "description": "Water Bottle reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "water bottle",
+            "green",
+            "student affairs",
+            "water"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "196": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "NUSC",
+        "date": "2025-07-23",
+        "description": "Textbooks reported found at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "nusc",
+            "textbooks"
+        ],
+        "related_user": "3",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "197": {
+        "name": "Scientific Calculator",
+        "category": "calculator",
+        "color": "black",
+        "location": "Faculty of Computer Science",
+        "date": "2025-12-24",
+        "description": "Scientific Calculator reported found at Faculty of Computer Science. Demo record for analytics testing.",
+        "keywords": [
+            "calculator",
+            "black",
+            "faculty of computer science",
+            "scientific"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": false,
+        "status": "closed",
+        "demo_data": true
+    },
+    "198": {
+        "name": "University ID Card",
+        "category": "ID",
+        "color": "navy",
+        "location": "Main Library",
+        "date": "2026-10-07",
+        "description": "Navy university id card reported lost at Main Library. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "navy",
+            "main library",
+            "university"
+        ],
+        "related_user": "2",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "matched",
+        "demo_data": true
+    },
+    "199": {
+        "name": "Wireless Headphones",
+        "category": "headphones",
+        "color": "navy",
+        "location": "Auditorium",
+        "date": "2025-05-16",
+        "description": "Wireless Headphones reported found at Auditorium. Demo record for analytics testing.",
+        "keywords": [
+            "headphones",
+            "navy",
+            "auditorium",
+            "wireless"
+        ],
+        "related_user": "5",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "200": {
+        "name": "Textbooks",
+        "category": "books",
+        "color": "mixed",
+        "location": "Computer Lab",
+        "date": "2025-06-29",
+        "description": "Mixed textbooks reported lost at Computer Lab. Demo record for analytics testing.",
+        "keywords": [
+            "books",
+            "mixed",
+            "computer lab",
+            "textbooks"
+        ],
+        "related_user": "1",
+        "report_type": "lost",
+        "is_open": false,
+        "status": "claimed",
+        "demo_data": true
+    },
+    "201": {
+        "name": "White University ID Card",
+        "category": "ID",
+        "color": "white",
+        "location": "Student Affairs",
+        "date": "2026-09-21",
+        "description": "University ID Card reported found at Student Affairs. Demo record for analytics testing.",
+        "keywords": [
+            "ID",
+            "white",
+            "student affairs",
+            "university"
+        ],
+        "related_user": "6",
+        "report_type": "found",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "202": {
+        "name": "Umbrella",
+        "category": "umbrella",
+        "color": "blue",
+        "location": "NUSC",
+        "date": "2026-03-31",
+        "description": "Blue umbrella reported lost at NUSC. Demo record for analytics testing.",
+        "keywords": [
+            "umbrella",
+            "blue",
+            "nusc"
+        ],
+        "related_user": "5",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
+    },
+    "203": {
+        "name": "Laptop",
+        "category": "laptop",
+        "color": "gray",
+        "location": "Mansoura University",
+        "date": "2025-12-18",
+        "description": "Gray laptop reported lost at Mansoura University. Demo record for analytics testing.",
+        "keywords": [
+            "laptop",
+            "gray",
+            "mansoura university"
+        ],
+        "related_user": "6",
+        "report_type": "lost",
+        "is_open": true,
+        "status": "open",
+        "demo_data": true
     }
 }
